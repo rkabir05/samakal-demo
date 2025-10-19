@@ -63,14 +63,7 @@ body {
 }
 
 
-.jukti-lead a img:hover {
-    border: 3px solid red;
-    border-radius:75% !important;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
-    display: flex;
-    justify-content: center;
-}
+
 
 .heading>h6{
     font-size: 25px;
@@ -211,10 +204,10 @@ body {
 .social-media>ul>li>a>i {
     border: 1px solid #ddd;
     font-size: 14px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     text-align: center;
-    line-height: 27px;
+    line-height: 22px;
     border-radius: 50px;
     color: #333;
     padding-left: 1px;
@@ -254,7 +247,6 @@ body {
 
 
 
-
 .bi-house-door,
 .heading>h1>a,
 .heading>h2>a,
@@ -273,4 +265,100 @@ body {
 .heading>h5>a:hover,
 .heading>h6>a:hover {
     color: red !important;
+}
+
+
+
+
+.border-md-1px {
+ border: 1px solid #b9b9b9 !important;   
+}
+
+.border-md-2px {
+ border: 2px solid #b9b9b9 !important;   
+}
+
+
+
+
+
+.border-md-start {
+ border-left: 1px solid #b9b9b9 !important;   
+} 
+
+.border-md-bottom {
+ border-bottom: 1px solid #b9b9b9 !important;   
+} 
+
+.border-md-top-1px {
+ border-top: 1px solid #b9b9b9 !important;   
+} 
+
+
+.border-md-end-1px {
+ border-right: 1px solid #b9b9b9 !important;   
+} 
+
+.border-mr-end-1px {
+ border-right: none !important;   
+} 
+
+.border-mr-start-1px {
+ border-left: none !important;   
+} 
+
+.border-mr-bottom-1px {
+ border-bottom: none !important;   
+} 
+
+.border-mr-right-1px {
+    border-right: none !important;
+}
+
+.border-md-top-2px {
+ border-top: 2px solid #b9b9b9 !important;   
+} 
+
+.border-md-bottom-2px {
+ border-bottom: 2px solid #b9b9b9 !important;   
+} 
+
+.border-md-start-2px {
+ border-left: 2px solid #b9b9b9 !important;   
+} 
+
+.border-md-end-2px {
+ border-right: 2px solid #b9b9b9 !important;   
+} 
+
+.border-mr-end-2px {
+ border-right: none !important;   
+} 
+
+.border-mr-start-2px {
+ border-left: none !important;   
+} 
+
+.border-mr-bottom-2px {
+ border-bottom: none !important;   
+} 
+
+.border-mr-top-2px {
+ border-top: none !important;   
+} 
+
+
+.box {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.box {
+    align-content: center;
+    text-align: center;
 }
