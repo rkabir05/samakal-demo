@@ -21,7 +21,8 @@ body {
 }
 
 .search-btn-height {
-    height: 30px;
+    height: 49px;
+    width: 162px;
 }
 
 .footer-bg-color {
@@ -346,6 +347,12 @@ body {
 .border-mr-top-2px {
  border-top: none !important;   
 } 
+
+
+.bg-ofcanvas {
+    background: #DCDCDC;
+}
+
 
 
 .box {
