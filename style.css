@@ -269,8 +269,6 @@ body {
 }
 
 
-
-
 .border-md-1px {
  border: 1px solid #b9b9b9 !important;   
 }
@@ -278,8 +276,6 @@ body {
 .border-md-2px {
  border: 2px solid #b9b9b9 !important;   
 }
-
-
 
 
 
@@ -354,7 +350,6 @@ body {
 }
 
 
-
 .box {
     height: 250px;
     width: 250px;
@@ -369,3 +364,7 @@ body {
     align-content: center;
     text-align: center;
 }
+
+/* .offcanvas-box {
+    margin-top: 67px;
+} */
