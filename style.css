@@ -368,3 +368,14 @@ body {
 /* .offcanvas-box {
     margin-top: 67px;
 } */
+
+
+.dropdown-other{
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+    min-width: 1260px;
+    background: #f0f0f0 !important;
+    border-bottom: 3px solid #f9c802;
+}
