@@ -74,7 +74,24 @@
 
 .border-mr-top-2px {
  border-top: 1px solid #b9b9b9 !important;   
-} 
+}
+
+a.text-decoration-none.text-dark {}
+
+ul.list-unstyled>li>a {
+    padding-right: 7px;
+}
+
+.social-media-bottom>ul>li>a {
+    margin-right: 10px;
+}
+
+.social-media-bottom>ul>li>a {
+    margin-left: 10px;
+}
+
+
+
 }
 
 
