@@ -18,6 +18,7 @@ body {
     font-size: 15px;
     line-height: 150%;
    overflow-x: hidden;
+   color: #333;
 }
 
 .search-btn-height {
@@ -436,4 +437,34 @@ span.c-name-color {
 .img-100 {
     max-width: 100%;
 }
+
+.subheading {
+    color:red ;
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.main-lead-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #333;
+}
+
+.lead-heading>h2>a:hover {
+    color: red !important;
+    transition: all 0.3s ease-in-out;
+
+}
+
+a.news-title:hover {
+    color: red !important;
+    transition: all 0.3s ease-in-out;
+
+}
+
 
