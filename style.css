@@ -456,13 +456,13 @@ span.c-name-color {
 }
 
 .lead-heading>h2>a:hover {
-    color: red !important;
+    color: #ffc107 !important;
     transition: all 0.3s ease-in-out;
 
 }
 
 a.news-title:hover {
-    color: red !important;
+    color: #ffc107 !important;
     transition: all 0.3s ease-in-out;
 
 }
