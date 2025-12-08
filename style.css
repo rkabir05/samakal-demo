@@ -457,6 +457,7 @@ span.c-name-color {
     color: #333;
 }
 
+.news-title:hover,
 .lead-heading>h2>a:hover {
     color: #ffc107 !important;
     transition: all 0.3s ease-in-out;
@@ -470,3 +471,18 @@ a.news-title:hover {
 }
 
 
+.lead-down-box .col-lg-6:nth-last-child(even) {
+    border-right: .5px solid #dee2e6 !important;
+}
+
+.lead-down-box-item .col-lg-6:nth-last-child(even) {
+    border-bottom: .5px solid #dee2e6 !important;
+}
+
+.border-right-inner {
+    border-right: 1px solid #dee2e6;
+}
+
+.border-bottom-last-none{
+    border-bottom: 1px solid red;
+}
