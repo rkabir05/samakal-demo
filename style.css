@@ -99,8 +99,16 @@ body {
 
 
 
-.border-md-bottoms {
-    border-bottom: 1px gray !important;
+.border-md-bottom {
+    border-bottom: 1px solid gray !important;
+}
+
+.border-bottom-3px {
+    border-bottom: 3px solid #f9c802 !important;
+}
+
+.border-bottom-2px {
+    border-bottom: 2px solid #f9c802 !important;
 }
 
 
@@ -474,6 +482,7 @@ a.news-title:hover {
 }
 
 
+
 .lead-down-box .col-lg-6:nth-last-child(even) {
     border-right: .5px solid #dee2e6 !important;
 }
@@ -488,4 +497,9 @@ a.news-title:hover {
 
 .border-bottom-last-none{
     border-bottom: 1px solid red;
+}
+
+.color-sp {
+    color: #f9c802
+;
 }
