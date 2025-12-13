@@ -99,9 +99,7 @@ body {
 
 
 
-.border-md-bottom {
-    border-bottom: 1px solid gray !important;
-}
+
 
 .border-bottom-3px {
     border-bottom: 3px solid #f9c802 !important;
@@ -280,6 +278,10 @@ body {
 
 
 
+
+.border-bottom-2px {
+ border-top: 2px solid  #dee2e6 !important;   
+} 
 
 
 .border-md-start {
@@ -506,3 +508,21 @@ a.news-title:hover {
     font-size: 25px;
 }
 
+
+
+.letest {
+    margin-top: 30px;
+    background: #f0f0f0;
+}
+
+
+.DLatestNewsSec {
+    margin-top: 30px;
+    background: #f0f0f0;
+}
+
+
+.letest-box {
+    height: 306px;
+    overflow: auto;
+}
