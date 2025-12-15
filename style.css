@@ -506,23 +506,21 @@ a.news-title:hover {
     padding-left: 10px;
     color: #606060;
     font-size: 25px;
+    margin-left: 11px;
 }
 
 
 
-.letest {
-    margin-top: 30px;
+.background-box {
     background: #f0f0f0;
 }
 
 
-.DLatestNewsSec {
-    margin-top: 30px;
-    background: #f0f0f0;
-}
+
 
 
 .letest-box {
-    height: 306px;
+    height: 330px;
     overflow: auto;
+    padding-right: 15px;
 }
