@@ -501,7 +501,7 @@ a.news-title:hover {
 }
 
 .item-name {
-    margin: 18px 0;
+    /* margin: 18px 0; */
     border-left: 6px solid #f9c802;
     padding-left: 10px;
     color: #606060;
