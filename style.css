@@ -110,6 +110,12 @@ body {
 }
 
 
+.video-title {
+    border-bottom: 3px solid #f9c802 !important;
+}
+
+
+
 
 .bg-opacity {
         background: rgba(0, 0, 0, 0.5);
@@ -523,4 +529,12 @@ a.news-title:hover {
     height: 330px;
     overflow: auto;
     padding-right: 15px;
+}
+
+
+.bangladesh-news {
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+    width: 32%;
 }
