@@ -457,7 +457,7 @@ span.c-name-color {
 
 .news-title {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 100;
     line-height: 1.4;
     color: #333;
 
@@ -465,7 +465,7 @@ span.c-name-color {
 
 .main-lead-title {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 100;
     line-height: 1.6;
     color: #333;
 }
@@ -511,7 +511,7 @@ a.news-title:hover {
     border-left: 6px solid #f9c802;
     padding-left: 10px;
     color: #606060;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 11px;
 }
 
@@ -533,8 +533,8 @@ a.news-title:hover {
 
 
 .bangladesh-news {
-    margin-top: 15px;
+    margin-top: 0px;
     background: #fff;
     box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
-    width: 32%;
+    width: 100%;
 }
