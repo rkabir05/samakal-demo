@@ -302,9 +302,6 @@ body {
  border-top: 1px solid  #dee2e6 !important;   
 } 
 
-/* .border-mr-bottom-001 {
- border-bottom: none !important;   
-}  */
 
 .border-md-end-1px {
  border-right: 1px solid  #dee2e6 !important;   
@@ -515,6 +512,13 @@ a.news-title:hover {
     margin-left: 11px;
 }
 
+.item-name-underline {
+    /* margin: 18px 0; */
+    /* padding-left: 2px; */
+    color: #606060;
+    font-size: 20px;
+    /* margin-left: 11px; */
+}
 
 
 .background-box {
