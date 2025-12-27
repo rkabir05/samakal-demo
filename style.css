@@ -453,7 +453,7 @@ span.c-name-color {
 }
 
 .news-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 100;
     line-height: 1.4;
     color: #333;
@@ -541,4 +541,51 @@ a.news-title:hover {
     background: #fff;
     box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
     width: 100%;
+}
+
+
+.economics-name {
+    margin: 20px 0;
+    padding-left: 10px;
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline #f9c802;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+
+.entertainment-bg {
+    background-color: #f1dbdb;
+}
+
+.catagory-title {
+    margin: 20px 0;
+    padding-left: 10px;
+    color: #333;
+    font-size: 25px;
+    text-decoration: underline 3px solid #f9c802;
+    text-underline-offset: 15px;
+    margin-bottom: 40px !important;
+
+}
+
+
+
+
+
+.economicsBG {
+    background: #f7f1ea;
+    padding: 5px 0 30px;
+}
+
+.economics-name:after {
+    content: '';
+    border-top: 3px solid #ad1313;
+    width: 130px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
