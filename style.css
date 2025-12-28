@@ -560,13 +560,13 @@ a.news-title:hover {
 }
 
 .catagory-title {
-    margin: 20px 0;
+    margin: 10px 0;
     padding-left: 10px;
     color: #333;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: underline 3px solid #f9c802;
     text-underline-offset: 15px;
-    margin-bottom: 40px !important;
+    margin-bottom: 15px !important;
 
 }
 
@@ -588,4 +588,44 @@ a.news-title:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.entertainment-lead-bg {
+    width: 100%;
+    background: #FFF;
+    border-bottom: 3px solid #e18b20;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+}
+
+.entertainment-single {
+    width: 100%;
+    background: #FFF;
+    border-bottom: 2px solid #e18b20;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+}
+
+.entertainment-pic {
+    margin-top: 20px;
+    width: 100%;
+    background: #303841;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+}
+
+.entertainment-pic .img-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000094;
+    padding: 5px 8px;
+    z-index: 1;
+}
+
+.entertainment-pic {
+    position: relative;
+}
+
+.img-icon {
+    color: #CC181E;
+    font-size: 20px;
 }
