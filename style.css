@@ -559,17 +559,17 @@ a.news-title:hover {
     background-color: #f1dbdb;
 }
 
+
+
 .catagory-title {
     margin: 10px 0;
-    padding-left: 10px;
+    padding-left: 0px;
     color: #333;
     font-size: 22px;
     text-decoration: underline 3px solid #f9c802;
-    text-underline-offset: 15px;
+    text-underline-offset: 20px;
     margin-bottom: 15px !important;
-
 }
-
 
 
 
@@ -628,4 +628,17 @@ a.news-title:hover {
 .img-icon {
     color: #CC181E;
     font-size: 20px;
+}
+
+
+.shadow {
+    width: 100%;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+    margin-top: 15px;
+    margin-top: 15px;
+}
+
+.lifestyle-lead-bg {
+    width: 100%;
+    background: #FFF;
 }
