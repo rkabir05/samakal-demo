@@ -467,7 +467,6 @@ span.c-name-color {
     color: #333;
 }
 
-.p-news-title:hover,
 .news-title:hover,
 .lead-heading>h2>a:hover {
     color: #ffc107 !important;
@@ -475,7 +474,6 @@ span.c-name-color {
 
 }
 
-a.p-news-title:hover,
 a.news-title:hover {
     color: #ffc107 !important;
     transition: all 0.3s ease-in-out;
@@ -627,10 +625,9 @@ a.news-title:hover {
     position: relative;
 }
 
-.p-img-icon,
 .img-icon {
     color: #CC181E;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -645,65 +642,3 @@ a.news-title:hover {
     width: 100%;
     background: #FFF;
 }
-
-
-.p-lead {
-    position: relative;
-}
-
-.p-img {
-    position: relative;
-}
-
-.p-img-over {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    z-index: 1;
-    opacity: 0.44;
-    transition: all 0.3s ease;
-}
-
-
-.p-lead:hover .p-img-over{
-    background: transparent !important;
-    z-index: 1;
-    transition: all 0.3s ease;
-    opacity: 1;
-}
-
-
-
-
-.p-lead .p-title {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 18px;
-    z-index: 1;
-    padding-bottom: 14px;
-}
-
-
-.p-news-title {
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 1.4;
-    color: white;
-}
-
-
-.p-lead .p-img-icon {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding-left: 18px !important;
-    z-index: 1;
-    padding-bottom: 321px;
-}
-
-
-
