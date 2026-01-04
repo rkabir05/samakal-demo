@@ -290,7 +290,7 @@ body {
 } 
 
 
-.border-md-start {
+.border-md-start-1px {
  border-left: 1px solid  #dee2e6 !important;   
 } 
 
@@ -311,7 +311,7 @@ body {
  border-right: none !important;   
 } 
 
-.border-mr-start-1px {
+.border-mr- {
  border-left: none !important;   
 } 
 
@@ -453,7 +453,7 @@ span.c-name-color {
 }
 
 .news-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     line-height: 1.4;
     color: #333;
@@ -541,104 +541,48 @@ a.news-title:hover {
     background: #fff;
     box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
     width: 100%;
+
+.photo-gallery-lead {
+    position: absolute;
+    
+}
+
+.photo-img {
+    position: relative;
+}
+    
+
+.photo-gallery-lead {
+    position: relative;
 }
 
 
-.economics-name {
-    margin: 20px 0;
-    padding-left: 10px;
-    color: #333;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: underline #f9c802;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 3px;
-}
-
-.entertainment-bg {
-    background-color: #f1dbdb;
-}
-
-
-
-.catagory-title {
-    margin: 10px 0;
-    padding-left: 0px;
-    color: #333;
-    font-size: 22px;
-    text-decoration: underline 3px solid #f9c802;
-    text-underline-offset: 20px;
-    margin-bottom: 15px !important;
-}
-
-
-
-
-.economicsBG {
-    background: #f7f1ea;
-    padding: 5px 0 30px;
-}
-
-.economics-name:after {
-    content: '';
-    border-top: 3px solid #ad1313;
-    width: 130px;
-    margin-top: 20px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.entertainment-lead-bg {
+. {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    background: #FFF;
-    border-bottom: 3px solid #e18b20;
-    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.44;
+    transition: all 0.3s ease;
 }
 
-.entertainment-single {
-    width: 100%;
-    background: #FFF;
-    border-bottom: 2px solid #e18b20;
-    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
-}
-
-.entertainment-pic {
-    margin-top: 20px;
-    width: 100%;
-    background: #303841;
-    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
-}
-
-.entertainment-pic .img-icon {
+.img-icon {
     position: absolute;
     top: 0;
     left: 0;
     background: #00000094;
-    padding: 5px 8px;
+    padding: 10px 15px;
     z-index: 1;
 }
 
-.entertainment-pic {
-    position: relative;
-}
-
-.img-icon {
-    color: #CC181E;
-    font-size: 20px;
-}
-
-
-.shadow {
+.photo-gallery-lead .photo-title {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);
-    margin-top: 15px;
-    margin-top: 15px;
+    padding: 10px;
+    z-index: 1;
 }
 
-.lifestyle-lead-bg {
-    width: 100%;
-    background: #FFF;
-}
