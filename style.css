@@ -515,11 +515,14 @@ a.news-title:hover {
 }
 
 .item-name-underline {
-    /* margin: 18px 0; */
-    /* padding-left: 2px; */
+    margin: 18px 0; */
+    padding-left: 2px;
     color: #606060;
     font-size: 20px;
-    /* margin-left: 11px; */
+    text-decoration: underline #f9c802;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 3px;
+
 }
 
 
@@ -647,6 +650,8 @@ a.news-title:hover {
 }
 
 
+
+
 .p-lead {
     position: relative;
 }
@@ -705,5 +710,14 @@ a.news-title:hover {
     padding-bottom: 321px;
 }
 
+
+.p-lead .p-img-icon {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 18px !important;
+    z-index: 1;
+    padding-bottom: 321px;
+}
 
 
