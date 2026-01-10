@@ -602,11 +602,14 @@ a.news-title:hover {
     position: relative;
 }
 
+.p-img-icon-right,
 .p-img-icon,
 .img-icon {
     color: #CC181E;
     font-size: 25px;
 }
+
+
 
 
 .shadow {
@@ -679,6 +682,15 @@ a.news-title:hover {
     padding-left: 18px !important;
     z-index: 1;
     padding-bottom: 321px;
+}
+
+.p-lead .p-img-icon-right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 18px !important;
+    z-index: 1;
+    padding-bottom: 131px;
 }
 
 
