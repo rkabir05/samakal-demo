@@ -232,11 +232,11 @@ body {
 }
 
 .social-media>ul>li>a>.fa-facebook-f:hover {
-    background-color: #1877F2;
+    background-color: #1877F2 ;
     color: white;
 }
 
-.social-media>ul>li>a>.fa-x-twitter-f:hover {
+.social-media>ul>li>a>.fa-x-twitter:hover {
     background-color: #000000 ;
     color: white;
 }
@@ -722,4 +722,60 @@ a.news-title:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.s-leading {
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 44px;
+}
+
+
+.last-news-title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    bottom: -15px;
+    background: #fff;
+    padding: 0 20px;
+}
+
+
+.last-news-title h2::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 45px;
+    width: 10px;
+    height: 10px;
+    background: #ff8c00;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.last-news-title h2::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 45px;
+    width: 10px;
+    height: 10px;
+    background: #ff8c00;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.srightbox {
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 27px 10px 15px;
+}
+
+.last-news-title h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
