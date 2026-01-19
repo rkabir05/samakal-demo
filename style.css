@@ -732,22 +732,24 @@ a.news-title:hover {
 }
 
 
+.last-news-title-down h2,
 .last-news-title h2 {
     font-size: 20px;
     font-weight: 700;
     position: relative;
-    display: inline-block;
+    display: inline-block !important;
     bottom: -15px;
     background: #fff;
     padding: 0 20px;
 }
 
 
+.last-news-title-down h2::before,
 .last-news-title h2::before {
     position: absolute;
     content: "";
-    top: 50%;
-    left: 45px;
+    top: 46%;
+    left: 69px;
     width: 10px;
     height: 10px;
     background: #ff8c00;
@@ -758,8 +760,8 @@ a.news-title:hover {
 .last-news-title h2::after {
     position: absolute;
     content: "";
-    top: 50%;
-    right: 45px;
+    top: 46%;
+    right: 87px;
     width: 10px;
     height: 10px;
     background: #ff8c00;
@@ -767,10 +769,11 @@ a.news-title:hover {
     border-radius: 50%;
 }
 
-.srightbox {
+.splnewspbox {
     border-left: 1px solid #eee;
     border-bottom: 1px solid #eee;
     border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
     padding: 27px 10px 15px;
 }
 
@@ -779,3 +782,30 @@ a.news-title:hover {
     display: flex;
     justify-content: center;
 }
+
+
+.last-news-title {
+    /* border-bottom: 1px solid #eee; */
+    text-align: center;
+}
+
+
+
+
+
+
+.last-news-title-down h2 {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block !important;
+    bottom: -15px;
+    background: #fff;
+    padding: 0 27px 0px 0px;
+}
+
+.last-news-title-down {
+    border-bottom: 1px solid #eee;
+}
+
+
