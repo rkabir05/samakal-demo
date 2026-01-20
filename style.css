@@ -287,8 +287,6 @@ body {
 
 
 
-
-
 .border-bottom-2px {
  border-top: 2px solid  #dee2e6 !important;   
 } 
@@ -397,6 +395,17 @@ body {
     min-width: 1260px;
     background: #f0f0f0 !important;
     border-bottom: 3px solid #f9c802;
+
+}
+
+.dropdown-menu {
+  z-index: 10 !important;
+  /* pointer-events: none; */
+
+}
+
+.has-megamenu {
+    position: static!important;
 }
 
 
