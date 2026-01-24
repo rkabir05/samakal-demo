@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAMAKAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+
+<body>
+    <!-- header-responsive-part -->
+    <div class="container-fluid d-md-none mt-3">
+
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center mb-2">
+
+                <!-- responsive-three-dot-start-->
+                <div class="col-md-0 col-2 d-flex align-items-end d-md-none">
+                    <div class="row d-flex justify-content-end bg-light">
+                        <a class="btn btn-dark py-1 px-2" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample">
+                            <i class="bi bi-list font-size-22 text-white"></i>
+                        </a>
+
+                        <div class="offcanvas offcanvas-top offcanvas-box" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <button type="button" class="btn-close mt-3" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                            <div class="offcanvas-header d-flex justify-content-center">
+                                <a href="#"><img src="images/logo.png" alt="main-logo"></a>
+                            </div>
+                            <div
+                                class="offcanvas-header pt-2 pb-2 d-flex justify-content-between font-md shadow bg-ofcanvas">
+                                <!-- ofcanvas-date-time-start -->
+                                <div class="col d-flex justify-content-center">
+                                    <div
+                                        class=" font-size-16 date-and-time mb-0 mt-0 pb-0 pt-0 d-flex justify-content-start align-items-center font-size-12 align-items-center">
+                                        <i class="bi bi-crosshair mb-0 mt-0 pb-0 pt-0"></i>
+                                        <h5 class="font-size-14 ps-2 mb-0 mt-0 pb-0 pt-0 font-size-16">ঢাকা</h5>
+                                        <i class="bi bi-calendar ps-3 mb-0 mt-0 pb-0 pt-0"></i>
+                                        <h5 class="font-size-14 px-2 mb-0 mt-0 pb-0 pt-0 font-size-16">৫ ভাদ্র ১৪৩২,
+                                            বুধবার, ২০ আগস্ট ২০২৫</h5>
+                                    </div>
+                                </div>
+                                <!-- ofcanvas-date-time-end -->
+                            </div>
+                            <div class="offcanvas-body" id="offcanvasExample">
+                                <ul class="navbar-nav text-bold">
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">প্রচ্ছদ</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">সর্বশেষ</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">জাতীয়</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">রাজনীতি</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">অর্থকড়ি</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">বিশেষ প্রতিবেদন</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">বিশ্বগ্রাম</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">রূপসী বাংলা</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">খেলার ভুবন</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">রঙ</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">সুবর্ণরেখা</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">সাহিত্যসভা</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">কর্মযোগ</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">চট্টগ্রামের খবর</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">ক্যাম্পাস</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">লেখাপড়া</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">যুক্তিতর্ক</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">জ্ঞান-বিজ্ঞান</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">খেত খামার</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">ফ্যাক্টচেক</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">ফ্যাশন প্লাস</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">রঙ্গব্যঙ্গ</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">মমতাময়ী</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">সম্পাদকীয়</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">আইন-আদালত</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">শিল্প-সংস্কৃতি</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">এখানে নোঙর</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">করপোরেট কর্নার</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">ইতিহাস-ঐতিহ্য</a></li>
+                                    <li class="nav-item border-bottom "><a
+                                            class="nav-link text-black font-size-16 py-2 fw-normal" aria-current="page"
+                                            href="category.html">মুক্তিযুদ্ধ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- responsive-three-dot-end -->
+
+                <!-- responsive-logo start -->
+                <div class="col-md-0 col-7">
+                    <a href="index.html"><img class="img-fluid" src="images/logo.png" alt="Main Logo"></a>
+                </div>
+                <!-- responsive-logo end -->
+
+
+                <!-- responsive-search start -->
+                <div class="col-md-0 col-3 d-flex align-items-end">
+                    <div class="search-option d-flex align-items-center">
+                        <form class="d-flex align-items-center" role="search">
+                            <input class="form-control search-btn-height font-size-13 me-1" type="search"
+                                placeholder="অনুসন্ধান করুন" aria-label="Search" />
+                            <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <!-- responsive-search end -->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- header-responsive-end -->
+
+    <!-- header-main-box start -->
+    <!-- header-top-part start -->
+    <div class="container-fluid d-none d-md-block">
+        <div class="container mt-3">
+            <!-- .header-date,logo,socilamed-epaper-start -->
+            <div class="row d-flex align-items-center mb-3">
+                <div class="col-md-4 d-flex align-items-center">
+                    <div
+                        class="font-size-16 date-and-time mb-0 mt-0 pb-0 pt-0 d-flex justify-content-start align-items-center font-size-12 align-items-center">
+                        <i class="bi bi-crosshair mb-0 mt-0 pb-0 pt-0"></i>
+                        <h5 class="font-size-14 ps-2 mb-0 mt-0 pb-0 pt-0 font-size-14">ঢাকা</h5>
+                        <i class="bi bi-calendar ps-3 mb-0 mt-0 pb-0 pt-0"></i>
+                        <h5 class="font-size-14 px-2 mb-0 mt-0 pb-0 pt-0 font-size-14">৫ ভাদ্র ১৪৩২, বুধবার, ২০ আগস্ট
+                            ২০২৫</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="index.html"><img src="images/logo.png" alt="main-logo"></a>
+
+                </div>
+                <div class="col-md-4">
+                    <!-- social-media start -->
+                    <div class="row d-flex justify-content-end warp-flex align-items-center">
+                        <div class="col-7 social-media">
+                            <ul class="list-unstyled d-flex mb-0 align-items-center justify-content-end warp-flex">
+                                <li><a class="text-decoration-none ms-md-0" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a class="text-decoration-none ms-md-2" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a class="text-decoration-none ms-md-2" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-youtube"></i></a></li>
+                                <li><a class="text-decoration-none ms-md-2" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li><a class="text-decoration-none ms-md-2" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a class="text-decoration-none ms-md-2" href="https://www.facebook.com/"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-end p-0">
+                            <div class="d-flex align-items-center justify-content-end bg-light px-1 py-0 rounded">
+                                <!-- <i class="bi bi-newspaper"></i> -->
+                                <h5 class="font-size-14 ps-2 mt-2 pe-2"><a class="text-decoration-none text-dark"
+                                        href="category.html">ই-পেপার</a></h5>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-end bg-light px-1 py-0 ms-2 rounded">
+                                <h5 class="font-size-14 ps-2 mt-2 pe-2"><a class="text-decoration-none text-dark"
+                                        href="category.html">English</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- social-media end -->
+
+                </div>
+            </div>
+            <!-- .header-date,logo,socilamed-epaper-end -->
+
+        </div>
+    </div>
+    <!-- header-top-part end -->
+
+    <!-- header-bottom-part start -->
+    <div class="container-fluid d-none d-md-block mb-5 mb-md-4">
+        <div class="border-md-top-1px mt-5"></div>
+        <div class="container d-header">
+            <div class="row d-flex align-items-center bg-body-tertiary">
+                <!-- navbar-start -->
+                <div class="col-md-10 p-0 m-0">
+                    <nav class="navbar navbar-expand-lg p-0 m-0">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarScroll">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                    style="--bs-scroll-height: 100px;">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">সর্বশেষ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">বাংলাদেশ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">রাজনীতি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">অর্থনীতি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">বিশ্ব</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">সর্বশেষ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">খেলা</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">বিনোদন</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">সারাদেশ </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">অপরাধ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">মতামত</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">রাজধানী</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">লাইফস্টাইল</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">শৈলী</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">শৈলী</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="category.html">ভিডিও</a>
+                                    </li>
+
+
+                                    <li class="nav-item dropdown has-megamenu">
+                                        <a class="nav-link active dropdown-toggle" href="category.html" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            অন্যান্য
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-other">
+                                            <li>
+                                                <div class="row w-100 h-100 d-flex justify-content-between ">
+                                                    <div class="col-md-3" style="flex: 0 0 20%;max-width: 20%;">
+                                                        <ul class="list-unstyled">
+                                                            <li><a class="dropdown-item" href="category.html">চতুরঙ্গ</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">নারী দিবস</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">সাহিত্য ও সংস্কৃতি</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="category.html">ছবি</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">প্রবাস</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-md-3" style="flex: 0 0 20%;max-width: 20%;">
+                                                        <ul class="list-unstyled">
+                                                            <li><a class="dropdown-item" href="category.html">জীবন সংগ্রাম</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">ভ্রমণ</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">ফিচার</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">প্রবাস</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">জীবন সংগ্রাম</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-md-3" style="flex: 0 0 20%;max-width: 20%;">
+                                                        <ul class="list-unstyled">
+                                                            <li><a class="dropdown-item" href="category.html">ভ্রমণ</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">ফিচার</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">শিক্ষা</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">শিল্প-বাণিজ্য</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">সাক্ষাৎকার</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-md-3" style="flex: 0 0 20%;max-width: 20%;">
+                                                        <ul class="list-unstyled">
+                                                            <li><a class="dropdown-item" href="category.html">প্রযুক্তি</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">প্রিয় চট্টগ্রাম</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">শেয়ারবাজার</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">অনুসন্ধান</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">অফবিট</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-md-3" style="flex: 0 0 20%;max-width: 20%;">
+                                                        <ul class="list-unstyled">
+                                                            <li><a class="dropdown-item" href="category.html">আর্কাইভ</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">মতামত</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">চাকরি</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">শিল্পমঞ্চ</a></li>
+                                                            <li><a class="dropdown-item" href="category.html">বিশেষ আয়োজন</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>                                                    
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- navbar-end -->
+
+
+                <!-- search-button-start -->
+                <div class="col-md-2">
+                    <div class="search-option d-flex align-items-center justify-content-end">
+                        <form class="d-flex align-items-end" role="search">
+                            <input class="form-control search-btn-height pe-0 ps-2 font-size-13 me-1" type="search"
+                                placeholder="অনুসন্ধান করুন" aria-label="Search" />
+                            <button class="btn p-0 ms-2 me-0" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                </div>
+                <!-- search-button-end -->
+            </div>
+        </div>
+        <div class="border-md-top-1px"></div>
+        <div class="border-md-top-1px mt-1 mb-5"></div>
+    </div>
+    <!-- header-bottom-part end -->
+    <!-- header-main-box end -->
+
+
+
+    <!-- policy-page-box start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 col-12">
+                    <div class="policy-lead text-center mt-lg-0 mt-5">
+                        <h1>PRIVACY POLICY</h1>
+                    </div>
+                    <div class="policy-box border px-4 py-3">
+                        <div class="row mb-4 align-items-center mt-2">
+                            <div class="col-lg-6 ">
+                                <h2 class="font-size-20 p-0 m-0">PRIVACY POLICY</h2>
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="policy-logo" src="images/logo.png" alt="logo">
+                            </div>                            
+                        </div>
+                        <p class="policy-text"> <b>We cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used. Consequently, we are committed to protecting your personal information when you are using the website of Samakal.</b><br> <br>
+
+<b>1. The Information We Collect and Use</b> <br> <br>
+
+A. Non-Personally Identifiable Information <br>
+
+When you visit our website, we may collect certain data that does not tell us specifically who you are. This is 'Non-Personally Identifiable Information.' It includes things like your Internet Protocol (IP) address, browser type, and the last domain you visited before coming to our website or the domain you go to when you leave. It also includes various statistical data such as which pages you visit on our website, how long you stay on them, and what you click. No Personally Identifiable Information is collected through our cookies or web beacons nor do we allow third-party companies to collect such information from cookies or web beacons on our website. We may, however, from time to time, allow third-party companies to serve ads and/or collect certain Non- Personally Identifiable Information when you visit our website. These companies may use Non-Personally Identifiable Information (e.g. click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you.<br> <br>
+
+B. Personally Identifiable Information <br>
+
+We also may collect information that can be used to identify you ('Personally Identifiable Information'). We only collect Personally Identifiable Information when you specifically provide it to us. For example, in connection with your use of certain features of the website you may be asked to create a user account and provide certain information including your name, email addresses, address, and telephone number. We may use Personally Identifiable Information to fulfill your requests, respond to your inquiries and provide other services, and to alert you to information, offers, or publications in which we think you may be interested. The emails that we send contain links that enable you to 'unsubscribe' from such mailings. We may disclose your Personally Identifiable Information to third parties in connection with a corporate transaction where all or a portion of our business (e.g., a portion that includes our customer lists) is sold or transferred. We also may disclose your Personally Identifiable Information if disclosure is required by law or as part of a lawsuit or government investigation or proceeding, or in order to permit us to exercise or preserve our legal rights or take action regarding potentially illegal activities or to protect the safety of any person. <br> <br>
+
+<b>2. Data Security</b> <br>
+
+Samakal cannot ensure or warrant the security or privacy of any information you transmit to us. We attempt to follow policies and procedures that will protect against unauthorized access to your Personally Identifiable Information. But we can make no guarantees or promises in this regard, and you provide information to us at your own risk.<br> <br>
+
+<b>3. Children</b> <br>
+
+This site is not directed at children under the age of 13 and we endeavor not to knowingly collect any Personally Identifiable Information from children under the age of 13. If a parent or guardian believes that this site has collected the Personally Identifiable Information of a child under the age of 13, please contact info.samakal@gmail.com <br> <br>
+
+<b>4. Access to your information</b> <br>
+
+You may contact us at info.samakal@gmail.com if at any time you would like to see the Personally Identifiable Information we hold about you, or to ask us to correct or update this information, or to ask us to delete it. Please contact us if you have questions or wish to take any action with respect to information to which this Privacy Policy applies.<br> <br>
+
+<b>5. Code of Ethics for Copyright</b> <br>
+
+Any unauthorized use or reproduction of the contents and images of Samakal for commercial or any other purposes is strictly prohibited and constitutes as copyright violation liable to legal action. Samakal is the sole owner of all contents on the Samakal website. Your use of the site is for your own personal and non-commercial use only. Our contents are protected by the copyright laws and other intellectual property laws of Bangladesh.</p>
+                        
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-2"></div>
+                  
+            </div>            
+        </div>
+
+    </div>
+    <!-- policy-page-box end -->
+
+
+
+
+    <!-- footer-top-start -->
+    <div class="border-md-top-5px mt-md-5 mt-3 "></div>
+    <div class="container-fluid bg-color-footer">
+        <div class="container ">
+            <div class="row">
+                <div class="footer-top">
+                    <ul class="list-unstyled">
+                        <li><a href="category.html" class="text-decoration-none text-dark">বিশেষ আয়োজন</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">কালের খেয়া</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ফেসবুক লাইভ</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">বিজ্ঞাপন মূল্য তালিকা</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ইউনিকোড কনভার্টার</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ফিচার</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">আর্কাইভ</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ছবি</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ভিডিও</a></li>
+                        <li><a href="category.html" class="text-decoration-none text-dark">ই-পেপার</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-bottom p-md-3 mt-md-4 mt-3">
+                    <div class="row">
+                        <div class="col-md-4 col-12 text-center">
+                            <p><a href="category.html" class="text-decoration-none text-dark align-items-center">PRIVACY POLICY</a>
+                            </p>
+                            <p><a href="category.html" class="text-decoration-none text-dark align-items-center">TERMS OF USE</a>
+                            </p>
+                            <p><a href="category.html" class="text-decoration-none text-dark align-items-center">SAMAKAL ALL RIGHTS
+                                    RESERVED</a></p>
+                        </div>
+                        <div class="col-md-4 col-12 text-center">
+                            <p><a href="category.html" class="text-decoration-none text-dark">সম্পাদক : শাহেদ মুহাম্মদ আলী</a></p>
+                            <p><a href="category.html" class="text-decoration-none text-dark">প্রকাশক : আবুল কালাম আজাদ</a></p>
+                            <p><a href="category.html" class="text-decoration-none text-dark">ফোন : ৫৫০২৯৮৩২-৩৮</a></p>
+                            <p><a href="category.html" class="text-decoration-none text-dark">বিজ্ঞাপন : +৮৮০১৭১৪০৮০৩৭৮</a></p>
+                            <p><a href="category.html" class="text-decoration-none text-dark">ই-মেইল: samakalad@gmail.com,
+                                    marketingonline@samakal.com</a></p>
+                            <p><a href="category.html" class="text-decoration-none text-dark">টাইমস মিডিয়া ভবন (৫ম তলা), ৩৮৭ তেজগাঁও
+                                    শিল্প এলাকা, <br> ঢাকা - ১২০৮</a></p>
+                        </div>
+                        <div class="col-md-4 col-12 text-center">
+                            <p><a href="category.html" class="text-decoration-none text-dark font-size-18">ফলো করুন <span
+                                        class="c-name-color">সমকাল</span>-এর খবর</a></p>
+
+                            <div class="social-media d-flex justify-content-center mt-md-3 mt-2 mb-md-3 mb-2">
+                                <ul class="list-unstyled d-flex mb-0 align-items-center warp-flex">
+                                    <li><a class="text-decoration-none ms-md-0 font-size-18"
+                                            href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li><a class="text-decoration-none ms-md-4 font-size-18"
+                                            href="https://www.facebook.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                    </li>
+                                    <li><a class="text-decoration-none ms-md-4 font-size-18"
+                                            href="https://www.facebook.com/"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li><a class="text-decoration-none ms-md-4 font-size-18"
+                                            href="https://www.facebook.com/"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li><a class="text-decoration-none ms-md-4 font-size-18"
+                                            href="https://www.facebook.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                                    </li>
+                                    <li><a class="text-decoration-none ms-md-4 font-size-18"
+                                            href="https://www.facebook.com/"><i
+                                                class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+
+                            </div>
+                            <div class="footer-logo mt-md-4 mt-3 mb-md-4 mb-3">
+                                <a href="index.html"><img src="images/logo.png" alt="main-logo"></a>
+
+                            </div>
+                            <p class="mt-md-3 mt-2"><a href="category.html"
+                                    class="text-decoration-none bg-secondary p-1 rounded text-dark font-size-18">© ২০০৫
+                                    - ২০২৫ সমকাল কর্তৃক সর্বসত্ব ® সংরক্ষিত</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-top-end -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+                        <!-- rule-start -->
+                        <!-- <div class="row">
+                            <div class="col-12">
+                                <div class="border-bottom"></div>
+
+                            </div>
+                        </div> -->
+                        <!-- rule-end -->
