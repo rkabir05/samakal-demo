@@ -866,3 +866,8 @@ a.news-title:hover {
 p.policy-text {
     text-align: justify;
 }
+
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+}
