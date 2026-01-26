@@ -114,5 +114,11 @@ ul.list-unstyled>li>a {
 }
 
 
+.main-logo a img {
+    width: 75%;
+}
 
-
+.search-btn-height {
+    height: 33px;
+    width: 100px;
+}
